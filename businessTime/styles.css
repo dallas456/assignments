@@ -1,0 +1,122 @@
+
+
+
+.topnav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+    color: #ffeead;
+    background-image: url(banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 8vw;
+}
+
+.topnav > a {
+    padding: 5px;
+    border-style: ridge;
+    border-width: 5px;
+    border-color: rgba(254, 255, 255, 0.637);
+    background-color: rgb(25, 186, 214);
+    color: black;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+#active {
+
+    background-color: rgb(226, 241, 14);
+}
+
+                        /* Title controls  */
+
+.mainTitle {
+    text-align: center;
+    color: #FFF;
+    background-color: #232323;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+    border: 6px solid #000000;
+    border-radius: 22px;
+}
+   
+
+.aboutTitle {
+    text-align: center;
+    color: #A7DD3C;
+    background: #FFFFFF;
+    text-shadow: 2px 0 0px #800040, 3px 2px 0px rgba(77,0,38,0.5), 3px 0 3px #FF002B, 5px 0 3px #800015, 6px 2px 3px rgba(77,0,13,0.5), 
+    6px 0 9px #FF5500, 8px 0 9px #802A00, 9px 2px 9px rgba(77,25,0,0.5), 9px 0 18px #FFD500, 11px 0 18px #806A00, 12px 2px 18px rgba(77,66,0,0.5), 
+    12px 0 30px #D4FF00, 14px 0 30px #6A8000, 15px 2px 30px rgba(64,77,0,0.5), 15px 0 45px #80FF00, 17px 0 45px #408000, 17px 2px 45px rgba(38,77,0,0.5);
+
+
+}
+
+.jobTitle {
+    text-align: center;
+    
+    color: #e61616;
+    
+    text-shadow: -5px 5px 0px #00e6e6, -10px 10px 0px #01cccc, -15px 15px 0px #00bdbd;
+    color: #ee1192;
+    
+    
+}
+
+
+.serviceTitle {
+    text-align: center;
+    color: #FFFFFF;
+    
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+    color: #FFFFFF;
+
+}
+
+                            /* //grid controls// */
+
+
+.gridHome1 {
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+    grid-auto-rows: 350px;
+}
+
+
+.gridAbout1 {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+    grid-auto-rows: 350px;
+}
+
+.gridService1 {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+    grid-auto-rows: 350px;
+}
+
+
+.gridJob1 {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+    grid-auto-rows: 350px;
+}
+
+div > div {
+
+    border-style: groove;
+    border-width: 5px;
+    border-color: rgba(250, 9, 9, 0.637);
+    background-color: rgb(116, 214, 25);
+    padding: 10px;
+    margin: 15px;
+
+}

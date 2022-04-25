@@ -11,14 +11,14 @@ just fix the existing ones.
 
 var enemyName = ["Lex","Batman","Darkseid","Brainiac","General Zod","Doomsday"];
 
-function whoWins (isThereKryptonite ) {
+function whoWins (isThereKryptonite, enemyName ) {
     if (!isThereKryptonite) {
 
-        return "Superman beats ' enemyName[i]', of course";
+        return "Superman beats " + enemyName +", of course";
     }
 
     else{
-        return "Depends on how quick Superman can get rid of the Kryptonite. ' enemyName ' could possibly win this one.";
+        return "Depends on how quick Superman can get rid of the Kryptonite. " +enemyName+"   could possibly win this one.";
     }
 }
 var isThereKryptonite;
