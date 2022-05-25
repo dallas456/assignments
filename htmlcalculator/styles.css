@@ -1,0 +1,34 @@
+#add{
+    border: 12px solid #FF0000;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 20px;
+}
+#subtract{
+    border: 12px solid #FFFFFF;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 20px;
+}
+#multiply{
+    border: 12px solid #403EFF;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 20px;
+}
+html{
+    background: #000000;
+}
+#head{
+    color: #FFFFFF;
+    background: #232323;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+    display: flex;
+    justify-content: center;
+}

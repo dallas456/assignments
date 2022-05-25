@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <title>Travel Form</title>
+
+</head>
+<body>
+    <h1 id="title">Welcome to the Express Airlines!</h1>
+    <h2 id="welcome message">Fill out the form on this page to ensure the best possible travel day for yourself.</h2>
+    
+    <form name="mainForm">
+        <div id="name"> 
+            First Name : <input type = "text" name = "firstName"/>
+        
+            Last Name : <input type = "text" name = "lastName"/>        
+        </div>
+        <br>
+        <div id="age">
+            Age: <input type = "number" name = "age"/> (Persons under 16 must be accompanied by an adult!)
+        </div>
+        
+        <br>
+        <div id="gender">
+            <span>Please select your gender.</span>
+            <br>
+            Male : <input type = "radio" name = "gender" value = "male" id = "male"/>        
+        
+            <br>
+        
+            Female : <input type = "radio" name = "gender" value = "female" id = "female"/>      
+        
+            <br>
+        
+            Prefer not to say : <input type = "radio" name = "gender" value = "undisclosed" id="undisclosed"/>        
+        </div>
+            <br>
+        <div id="destination">
+            <label for = "destination">What is your destination?</label>
+        
+            <select name = "destination">
+                <option value = "Austin, Tx">Austin, Tx</option>
+                <option value = "New Orleans, La">New Orleans, La</option>
+                <option value = "The Moon">The Moon?</option>
+            </select>
+        </div>
+        
+            <br>
+        <div id="diet">
+            <span>Do you have any dietary restrictions that we need to know about?</span>
+            <br>
+            Vegan : <input class = "diet-selection" type = "checkbox" name = "diet" id = "vegan" value = "vegan">      
+        
+            <br>
+        
+            Kosher : <input class = "diet-selection" type="checkbox" name = "diet" id = "kosher" value = "kosher">        
+        
+            <br>
+        
+             Halal : <input class = "diet-selection" type = "checkbox" name = "diet" id = "halal" value = "halal">        
+        
+            <br>
+            No green things : <input class = "diet-selection" type = "checkbox" name = "diet" id = "ngt" value = "no green things">
+            <br>
+        </div>
+        <button>Submit</button>
+            <br>
+    </form>
+    <script src = "main.js"></script>
+</body>
+</html>

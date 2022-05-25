@@ -1,0 +1,81 @@
+html{
+    background: #50E8F5 url("/images/coin.jpg") repeat scroll 100% 0%;
+}
+
+#title{
+    display: flex;
+    border: 12px double #E60000;
+    width: auto;
+    justify-content: center;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 40px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    text-decoration: underline solid rgb(68, 68, 68);
+    background: #000000;
+}
+
+#goomba{
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px inset #DB9F58;
+    border-radius: 40px;
+    margin: 15px;
+}
+.badLabel{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 16px;
+    letter-spacing: -0.8px;
+    word-spacing: 2px;
+    color: #000000;
+}
+
+#bobomb{
+    background: #dd7009;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px inset #4d4944;
+    border-radius: 40px;
+    margin: 15px;
+}
+
+
+#cheep{
+    background: #f058a4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px inset #ff0000;
+    border-radius: 40px;
+    margin: 15px;
+
+
+}
+
+#total{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0daa2f;
+    border: 5px inset #fbff0a;
+    border-radius: 40px;
+    margin: 15px;  
+}
+
+#totalText{
+    color: #FFFFFF;
+    background: #333333;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+
+}
+
+#foot{
+    justify-items: auto;
+    background: #f3f039;
+    
+    border: 5px ridge #1B08FF;
+
+}
