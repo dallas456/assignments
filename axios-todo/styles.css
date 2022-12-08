@@ -1,0 +1,44 @@
+.itemContainer{
+	border: 9px double #E60026;
+	border-radius: 16px;
+	background: rgba(0,230,191,0.38);
+    justify-items: center;
+    width: 500px;
+    height: fit-content;
+    margin: auto;
+    
+}
+#todo-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.deleteButton{
+	-webkit-box-shadow: 5px 5px 20px 7px rgba(230,0,38,0.46), 5px 5px 20px 7px rgba(230,0,38,0.46);
+	box-shadow: 5px 5px 20px 7px rgba(230,0,38,0.46), 5px 5px 20px 7px rgba(230,0,38,0.46);
+	background: rgba(0,230,191,0.3);
+	text-shadow: 2px 2px 12px rgba(230,0,38,0.54), 2px 2px 19px rgba(40,0,7,0.57);
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 40px;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+	color: #C90021;
+	font-weight: 700;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+.isCompleted{
+	
+	border: 9px double #E60026;
+	border-radius: 16px;
+	background: rgba(0,230,191,0.38);
+    justify-items: center;
+    width: 500px;
+    height: fit-content;
+    margin: auto;
+	text-decoration: line-through
+    
+}

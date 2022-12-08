@@ -1,0 +1,72 @@
+{
+    "menu":{
+        "appetizers": [
+            {
+                "name": "nachos",
+                "ingredients": ["chips", "cheese", "beans", "peppers", "onion"],
+                "description": "it is a bit cheesy, its a bit crunchy."
+            },
+            {
+                "name": "hush puppies",
+                "ingredients": ["corn", "herb blend", "other things"],
+                "description": "A total classic, fried ball of corn and things"
+
+            }
+                
+        ],
+        "cold sandwiches": [
+            {
+                "name": "Thats a load of bologna!",
+                "ingredients": ["bread of choice", "3 pounds of balogna", "fried egg"],
+                "description": "become the champion of lunch and tackle this 3 pound monster today!"
+            },
+            {
+                "name": "Neptune's Delight",
+                "ingredients": ["bread of choice", "tuna fish ground", "cod", "imitation crab", "sweet and spicy giardinera relish"],
+                "description": "Conquer the sea today!"
+            },
+            {
+                "name": "The pb and j",
+                "ingredients": ["bread of choice", "peanut butter oe almond butter", "seasonal jam mix"],
+                "description": "The classic available with almond butter aswell"
+            }
+        ],
+        "hot sandwiches":[
+            {
+                "name": "Meatballs in paradise",
+                "ingredients": ["double fried pork meatballs", "cheese of choice", "grilled pineapple", "chili pineapple glaze"],
+                "description": "Take an early holiday this afternoon or evening"
+            },
+            {
+                "name": "One hot clucker",
+                "ingredients": ["brioche bun", "7 pepper brined fried chicken thigh", "house fry sauce", "cole slaw", "pickle"],
+                "description": "If you wanna sweat......"
+            }
+        ],
+        "deserts": [
+            {
+                "name": "lava pie",
+                "ingredients": ["piecrust", "strawberry chunk filling", "creme fraiche"],
+                "description": "bright red and delicous"
+
+            },
+            {
+                "name": "puddin",
+                "ingredients": ["some dairy", "chocolate, vanilla, or butterscotch", "fresh fruit"],
+                "description": "a delightful classic."
+            }
+        ],
+        "drinks": [
+            {
+                "name": "caterpillar waste",
+                "ingredients": ["warm apple cider", "house bourbon", "green syrup"],
+                "description": "A warm colorful retreat" 
+            },
+            {
+                "name": "captains helper",
+                "ingredients": ["3 random kinds of rum", "coconut sweet cream", "pineapple soda"]
+            }
+        ]
+
+    }
+}

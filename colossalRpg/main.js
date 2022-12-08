@@ -1,5 +1,5 @@
 var readlineSync = require('readline-sync');
-
+//MOVE NAME INIT TO OBJECT AS FUNCTION   THEN CALL LATER       DO NOT HAVE NAME AS AN ARGUEMENT FOR THE CLASS CONSTRUCTOR
 // Random number generator
 
 var diceRoll = function (min, max) {
